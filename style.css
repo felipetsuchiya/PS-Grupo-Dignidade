@@ -1,5 +1,11 @@
+/*----------------------------------GLOBAL-----------------------------------*/
+h1, h2, p {
+    font-family: sans-serif;
+}
+
+/*----------------------------------CONTAINER HEADER-----------------------------------*/
 .container-header {
-    display: flex;
+    display: flex; 
     flex-direction: row;
     align-items: center;
      
@@ -8,6 +14,8 @@
     height: 200px;
     width: 500px;
 }
+/*-------------------------------------------------------------------------------------*/
+/*----------------------------------CONTAINER NAVBAR-----------------------------------*/
 .container-navbar {
     display: flex;
     flex-direction: row;
@@ -18,5 +26,68 @@
 }
 .container-navbar p {
     margin-right: 20px;
-    margin-left: ;
 }
+/*-------------------------------------------------------------------------------------*/
+/*----------------------------------CONTAINER HOME-----------------------------------*/
+    /*----------------------------------CONTAINER HOME INTRO-----------------------------------*/
+    .container-home-intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 150px;
+    }
+
+    .container-home-intro img {
+        width: 250px;
+    }
+    .container-home-intro h1, p {
+        color: #333333;
+    }
+    .container-home-intro h1 {
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    .container-home-intro p {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    /*-------------------------------------------------------------------------------------*/
+    /*----------------------------------CONTAINER HOME CARDS-----------------------------------*/
+    .container-home-cards {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        flex-wrap: wrap;
+    }
+
+    .home-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        height: 350px;
+        border: 1px solid #000000;
+        margin: 20px;
+    }
+    .home-card img{
+        margin-top: 40px;
+    }
+    .home-card h2{
+        padding: 5px;
+        padding-bottom: 0px;
+        font-size: 24px;
+        text-align: center;
+    }
+    .home-card p{
+        margin-top: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+    .line-break {
+        width: 100%;
+    }
+
+/*-------------------------------------------------------------------------------------*/
