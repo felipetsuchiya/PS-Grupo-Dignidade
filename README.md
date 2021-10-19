@@ -8,3 +8,6 @@ git clone https://github.com/felipetsuchiya/PS-Grupo-Dignidade.git .
 ```console
 git pull origin master
 ```
+### Acesse o site
+
+https://felipetsuchiya.github.io/PS-Grupo-Dignidade/
