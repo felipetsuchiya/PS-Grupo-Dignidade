@@ -76,9 +76,10 @@ hr {
   flex-direction: column;
   align-items: center;
   width: 300px;
-  height: 350px;
+  height: 465px;
   border: 1px solid #000000;
   margin: 20px;
+  border-radius: 8%;
 
   transition: 1s ease;
   cursor: pointer;
@@ -196,7 +197,7 @@ hr {
     width: 500px;
     margin-bottom: 50px;
     margin-top: 50px;
-}
+    }
 
 .formulario {
     display: flex;
@@ -210,9 +211,9 @@ hr {
 
 .formulario button {
     padding: 10px;
-    margin: 10px;
+    margin: 10x;
     background: white;
- }
+     }
 /*-------------------------------------------------------------------------------------*/
 
 .container-footer {
