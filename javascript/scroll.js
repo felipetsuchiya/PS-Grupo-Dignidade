@@ -11,7 +11,7 @@ function scrollToIdOnClick(event) {
     const section = document.querySelector(id).offsetTop;
 
     window.scroll({
-        top: section - 100,
+        top: section - 50,
         behavior: "smooth"
     })
 }

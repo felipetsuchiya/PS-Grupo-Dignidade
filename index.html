@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Grupo Dignidade - 15 anos</title>
@@ -31,7 +36,7 @@
     <section id="infogrupo">
       <div class="container-home">
         <div class="container-home-intro">
-          <img src="assets/logo.jpg" />
+          <img src="assets/img/logo.jpg" />
           <h1>Conheça o Grupo Dignidade</h1>
           <p>
             O Grupo Dignidade é uma organização de sociedade civil sem fins
@@ -59,7 +64,7 @@
         </div>
         <div class="container-home-cards">
           <div class="home-card">
-            <img src="assets/imagemcard1.jpg" />
+            <img src="assets/img/imagemcard1.jpg" />
             <h2>Campanhas</h2>
             <p>
               O Grupo Dignidade organiza campanhas para o combate do
@@ -68,7 +73,7 @@
             </p>
           </div>
           <div class="home-card">
-            <img src="assets/imagemcard2.jpg" />
+            <img src="assets/img/imagemcard2.jpg" />
             <h2>Ações na Educação</h2>
             <p>
               No site do grupo há uma página onde é possível reportar eventos de
@@ -77,7 +82,7 @@
             </p>
           </div>
           <div class="home-card">
-            <img src="assets/imagemcard3.jpg" />
+            <img src="assets/img/imagemcard3.jpg" />
             <h2>Atendimento à comunidade LGBT</h2>
             <p style="margin-top: 0px">
               O grupo também oferece um serviço de orientação jurídica,
@@ -88,7 +93,7 @@
           </div>
           <div class="line-break"></div>
           <div class="home-card">
-            <img src="assets/imagemcard4.jpg" />
+            <img src="assets/img/imagemcard4.jpg" />
             <h2>Arte e Cultura</h2>
             <p>
               O grupo tem como um dos seus objetivos promover manifestações
@@ -101,7 +106,7 @@
             </p>
           </div>
           <div class="home-card">
-            <img src="assets/imagemcard5.jpg" />
+            <img src="assets/img/imagemcard5.jpg" />
             <h2>Documentação e Pesquisa</h2>
             <p>
               No site do Grupo Dignidade também estão disponíveis diversas
@@ -112,7 +117,7 @@
             </p>
           </div>
           <div class="home-card">
-            <img src="assets/imagemcard6.jpg" />
+            <img src="assets/img/imagemcard6.jpg" />
             <h2>Acervo histórico</h2>
             <p>
               Em exposição no site estão as diversas edições do jornal O Lampião
@@ -122,7 +127,7 @@
           </div>
           <div class="line-break"></div>
           <div class="home-card">
-            <img src="assets/imagemcard7.jpg" />
+            <img src="assets/img/imagemcard7.jpg" />
             <h2>Luta contra o preconceito</h2>
             <p>
               O Grupo tem toda sua história voltada à defesa dos direitos LGBT
@@ -135,7 +140,7 @@
             </p>
           </div>
           <div class="home-card">
-            <img src="assets/imagemcard8.jpg" />
+            <img src="assets/img/imagemcard8.jpg" />
             <h2>Grupos de apoio</h2>
             <p>
               O Grupo Dignidade conta com grupos de apoio como o Laços de
@@ -157,10 +162,10 @@
     <section id="entrevistas">
       <div class="container-entrevistas">
         <div class="container-entrevistas-header">
-          <img src="assets/alberto.png" />
-          <img src="assets/outroentrevistado.jpg" />
-          <img src="assets/entrevistado3.jpg" />
-          <img src="assets/entrevistado4.jpg" />
+          <img src="assets/img/alberto.png" />
+          <img src="assets/img/outroentrevistado.jpg" />
+          <img src="assets/img/entrevistado3.jpg" />
+          <img src="assets/img/entrevistado4.jpg" />
         </div>
         <h2>Entrevistas</h2>
         <p>
@@ -171,7 +176,11 @@
         </p>
         <div class="container-entrevistas-videos">
           <div class="card-entrevista-esquerda">
-            <img src="assets/alberto.png" />
+            <img
+              id="myBtn"
+              style="cursor: pointer"
+              src="assets/img/alberto.png"
+            />
             <p>
               "Quando a gente vem de uma história de preconceito e
               discriminação, tem muita coisa que fica fora do lugar dentro de
@@ -182,13 +191,33 @@
             Alberto, Alexandre, 34 anos, Trabalha no CEDOC.
           </h6>
         </div>
+
+        <!-- Modal content -->
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <video width="500" controls>
+              <!-- <source
+                src="assets/videos/entrevistaAlberto.mp4"
+                type="video/mp4"
+              /> -->
+            </video>
+            <div class="titulo-popup">Entrevista com Alberto</div>
+            <h1 class="subtitulo-popup">
+              "Quando a gente vem de uma história de preconceito e
+              discriminação, tem muita coisa que fica fora do lugar dentro de
+              si."
+            </h1>
+            <button class="close">Voltar</button>
+          </div>
+        </div>
+        <!-- Modal content -->
         <div class="container-entrevistas-videos">
           <div class="card-entrevista-direita">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
               esse pariatur aliquam nesciunt voluptatib
             </p>
-            <img src="assets/outroentrevistado.jpg" />
+            <img src="assets/img/outroentrevistado.jpg" />
           </div>
           <h6 style="float: left; margin-top: -30px; margin-left: 10px">
             Nome, Sobrenome, idade, cargo
@@ -196,7 +225,7 @@
         </div>
         <div class="container-entrevistas-videos">
           <div class="card-entrevista-esquerda">
-            <img src="assets/entrevistado3.jpg" />
+            <img src="assets/img/entrevistado3.jpg" />
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
               esse pariatur aliquam nesciunt voluptatib
@@ -212,7 +241,7 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
               esse pariatur aliquam nesciunt voluptatib
             </p>
-            <img src="assets/entrevistado4.jpg" />
+            <img src="assets/img/entrevistado4.jpg" />
           </div>
           <h6 style="float: left; margin-top: -30px; margin-left: 10px">
             Nome, Sobrenome, idade, cargo
@@ -234,10 +263,11 @@
         </div>
         <div class="container-acontecimento">
           <div class="container-card-acontecimento">
-            <img src="assets/logo.jpg" />
+            <img src="assets/img/logo.jpg" />
             <h1>Proposta de criminalização da homofobia</h1>
-            <h2>Texto curto introdutório.</h2>
-            <button>Ver mais</button>
+            <h2>Congresso Nacional, opõe-se ferozmente tanto ao reconhecimento de direitos civis básicos à população LGBT quanto à criminalização da homofobia e da transfobia. Sequer reconhece os direitos previdenciários ou a entidade familiar formada por casais homoafetivos, o Congresso Nacional tem se mostrado propenso a fazer – ao contrário, há projetos que pretendem "derrubar" os ganhos conseguidos na via judicial.
+            </h2>
+            <button id="myBtn2">Ver mais</button>
           </div>
           <div class="ruler-acontecimento" style="background-color: #f44336">
             <div
@@ -250,6 +280,27 @@
           </div>
           <div class="ano-acontecimento">
             <div>2011</div>
+          </div>
+        </div>
+        <div id="myModal2" class="modal">
+          <div class="modal-content">
+            <img src="assets/img/logo.jpg" />
+            <div class="titulo-popup">Proposta de criminalização da homofobia</div>
+            <h1 class="subtitulo-popup">
+              Manifesto da II Marcha Nacional contra a homofobia
+ 
+              A Associação Brasileira de Lésbicas, Gays, Bissexuais, Travestis e Transexuais – ABGLT, convoca e coordena todos os/as ativistas de suas 237 ONGs afiliadas e pessoas e organizações aliadas à II MARCHA NACIONAL CONTRA A HOMOFOBIA PELA APROVAÇÃO IMEDIATA DO PLC 122, a ser realizada na cidade de Brasília, em 18 de maio de 2011, com concentração às 9h, na Esplanada dos Ministérios, em frente à Catedral Metropolitana.
+               
+              Mais informações no site de grupo dignidade:
+              https://www.grupodignidade.org.br/manifesto-da-ii-marcha-nacional-contra-a-homofobia/ 
+               
+              Manifesto da III Marcha Nacional contra a homofobia:
+              Por essa razão é que a Associação Brasileira de Lésbicas, Gays, Bissexuais, Travestis e Transexuais – ABGLT, enquanto organizadora do evento, convoca todos/as os/as ativistas de suas 257 ONGs afiliadas e pessoas e organizações aliadas à III MARCHA NACIONAL CONTRA A HOMOFOBIA, a ser realizada na cidade de Brasília, em 16 de maio de 2012, com concentração em frente ao Palácio do Planalto, a partir das 08h30. Ainda, no dia 15 de maio será realizada a Audiência Pública no Auditório Petrônio Portela no Senado Federal, das 9h30 às 17h30 do dia 15 de maio, para debater o tema da criminalização da homofobia e testemunhos do sofrimento da homofobia.
+              Mais informações no site de grupo dignidade:
+              https://www.grupodignidade.org.br/manifesto-iii-marcha-nacional-contra-homofobia/
+              
+            </h1>
+            <button class="close2">Voltar</button>
           </div>
         </div>
         <div class="container-acontecimento">
@@ -266,7 +317,7 @@
             </div>
           </div>
           <div class="container-card-acontecimento">
-            <img src="assets/logo.jpg" />
+            <img src="assets/img/logo.jpg" />
             <h1>Direito do casamento</h1>
             <h2>Texto curto introdutório.</h2>
             <button>Ver mais</button>
@@ -274,15 +325,15 @@
         </div>
         <div class="container-acontecimento">
           <div class="container-card-acontecimento">
-            <img src="assets/logo.jpg" />
+            <img src="assets/img/logo.jpg" />
             <h1>Direito da adoção</h1>
             <h2>Texto curto introdutório.</h2>
             <button>Ver mais</button>
           </div>
-          <div class="ruler-acontecimento" style="background-color: #FFEB3B">
+          <div class="ruler-acontecimento" style="background-color: #ffeb3b">
             <div
               class="circle-acontecimento"
-              style="background-color: #FFEB3B"
+              style="background-color: #ffeb3b"
             ></div>
             <div>
               <div class="linha-acontecimento"></div>
@@ -306,7 +357,7 @@
             </div>
           </div>
           <div class="container-card-acontecimento">
-            <img src="assets/logo.jpg" />
+            <img src="assets/img/logo.jpg" />
             <h1>Retificação do pré-nome de de pessoas trans</h1>
             <h2>Texto curto introdutório.</h2>
             <button>Ver mais</button>
@@ -314,15 +365,15 @@
         </div>
         <div class="container-acontecimento">
           <div class="container-card-acontecimento">
-            <img src="assets/logo.jpg" />
+            <img src="assets/img/logo.jpg" />
             <h1>Doação de sangue da população LBGT</h1>
             <h2>Texto curto introdutório.</h2>
             <button>Ver mais</button>
           </div>
-          <div class="ruler-acontecimento" style="background-color: #2196F3">
+          <div class="ruler-acontecimento" style="background-color: #2196f3">
             <div
               class="circle-acontecimento"
-              style="background-color: #2196F3"
+              style="background-color: #2196f3"
             ></div>
             <div>
               <div class="linha-acontecimento"></div>
@@ -336,17 +387,17 @@
           <div class="ano-acontecimento">
             <div>20XX</div>
           </div>
-          <div class="ruler-acontecimento" style="background-color: #673AB7">
+          <div class="ruler-acontecimento" style="background-color: #673ab7">
             <div
               class="circle-acontecimento"
-              style="background-color: #673AB7"
+              style="background-color: #673ab7"
             ></div>
             <div>
               <div class="linha-acontecimento"></div>
             </div>
           </div>
           <div class="container-card-acontecimento">
-            <img src="assets/logo.jpg" />
+            <img src="assets/img/logo.jpg" />
             <h1>Acontecimento 6</h1>
             <h2>Texto curto introdutório.</h2>
             <button>Ver mais</button>
@@ -357,23 +408,67 @@
     <hr />
     <!-----------------------------------------------------------CURIOSIDADES--------------------------------------------------------->
     <section id="curiosidades">
-        <div class="container-curiosidades">
-            <h1>Curiosidades</h1>
-            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas repudiandae odit, sequi eaque suscipit quae et alias facilis tempore ipsa reprehenderit, dolores libero, adipisci velit. Quam vero atque dicta sed?</h2>
-            <div class="container-card-curiosidades">
-                <h1>Anterior</h1>
-                <div class="card-curiosidades">
-                    <img src="assets/logo.jpg" alt="">
-                    <div class="curiosidades-card-content">
-                        <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis illum quis rerum cum iusto suscipit debitis quasi molestiae, repellendus quos, consequuntur cupiditate nostrum tempore cumque eius corporis illo reprehenderit deserunt!</h1>
-                        <div>
-                            <button>Saiba mais</button>
-                        </div>
-                    </div>
+      <div class="container-curiosidades">
+        <h1>Curiosidades</h1>
+        <h2>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
+          repudiandae odit, sequi eaque suscipit quae et alias facilis tempore
+          ipsa reprehenderit, dolores libero, adipisci velit. Quam vero atque
+          dicta sed?
+        </h2>
+        <div class="container-card-curiosidades">
+          <h1 id="btn_prev" style="cursor: pointer">
+            <i class="fa fa-chevron-left"></i>
+          </h1>
+          <div class="slide">
+            <div class="card-curiosidades" id="card1">
+              <img src="assets/img/outroentrevistado.jpg" alt="" />
+              <div class="curiosidades-card-content">
+                <h1>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Perspiciatis illum quis rerum cum iusto suscipit debitis quasi
+                  molestiae, repellendus quos, consequuntur cupiditate nostrum
+                  tempore cumque eius corporis illo reprehenderit deserunt!
+                </h1>
+                <div>
+                  <button>Saiba mais</button>
                 </div>
-                <h1>Próximo</h1>
+              </div>
             </div>
+            <div class="card-curiosidades" id="card2">
+              <img src="assets/img/entrevistado3.jpg" alt="" />
+              <div class="curiosidades-card-content">
+                <h1>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Perspiciatis illum quis rerum cum iusto suscipit debitis quasi
+                  molestiae, repellendus quos, consequuntur cupiditate nostrum
+                  tempore cumque eius corporis illo reprehenderit deserunt!
+                </h1>
+                <div>
+                  <button>Saiba mais</button>
+                </div>
+              </div>
+            </div>
+            <div class="card-curiosidades" id="card3">
+              <img src="assets/img/entrevistado4.jpg" alt="" />
+              <div class="curiosidades-card-content">
+                <h1>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Perspiciatis illum quis rerum cum iusto suscipit debitis quasi
+                  molestiae, repellendus quos, consequuntur cupiditate nostrum
+                  tempore cumque eius corporis illo reprehenderit deserunt!
+                </h1>
+                <div>
+                  <button>Saiba mais</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h1 id="btn_next" style="cursor: pointer">
+            <i class="fa fa-chevron-right"></i>
+          </h1>
         </div>
+      </div>
     </section>
     <hr />
     <!-----------------------------------------------------------FORMULARIO----------------------------------------------------------->
@@ -395,9 +490,9 @@
             <input type="text" placeholder="Estado" />
           </div>
           <div>
-              <button onclick="() => {e.preventDefault()}" type="submit">
-                Quero fazer parte!
-              </button>
+            <button onclick="() => {e.preventDefault()}" type="submit">
+              Quero fazer parte!
+            </button>
           </div>
         </form>
       </div>
@@ -405,10 +500,10 @@
     <!-----------------------------------------------------------FOOTER----------------------------------------------------------->
     <section class="footer">
       <div class="container-footer">
-        <img src="assets/facebook.jpg" />
-        <img src="assets/twitter.jpg" />
-        <img src="assets/instagram.jpg" />
-        <img src="assets/youtube.jpg" />
+        <img src="assets/img/facebook.jpg" />
+        <img src="assets/img/twitter.jpg" />
+        <img src="assets/img/instagram.jpg" />
+        <img src="assets/img/youtube.jpg" />
       </div>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
@@ -418,5 +513,7 @@
       </p>
     </section>
   </body>
-  <script src="app.js"></script>
+  <script src="javascript/scroll.js"></script>
+  <script src="javascript/slider.js"></script>
+  <script src="javascript/popup.js"></script>
 </html>
