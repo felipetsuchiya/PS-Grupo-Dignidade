@@ -86,7 +86,7 @@ hr {
   border: 1px solid #000000;
   margin: 20px;
   border-radius: 25px;
-
+  justify-content: center;
   transition: 1s ease;
   cursor: pointer;
 }
@@ -190,7 +190,7 @@ hr {
 
 .linha-do-tempo-header h1 {
   font-weight: bold;
-  font-size: x-large;
+  font-size: 40px;
   margin-bottom: 25px;
 }
 
@@ -220,6 +220,11 @@ hr {
 .container-card-acontecimento h2 {
   margin-bottom: 50px;
 }
+
+div.container-card-acontecimento img{
+  width: 100%;
+}
+
 .container-card-acontecimento button {
   padding: 16px;
   background-color: #ffffff;
@@ -268,9 +273,9 @@ hr {
   flex-direction: column;
   margin: 100px 300px;
 }
-.container-curiosidades h1 {
+div.container-curiosidades h1 {
   font-weight: bold;
-  font-size: x-large;
+  font-size: 40px;
   margin: 10px;
 }
 .container-curiosidades h2 {
@@ -296,6 +301,11 @@ hr {
   flex-direction: column;
   align-items: center;
 }
+
+div.curiosidades-card-content h1{
+  font-size: 20px;
+}
+
 .curiosidades-card-content button {
   padding: 16px;
   background-color: #ffffff;
